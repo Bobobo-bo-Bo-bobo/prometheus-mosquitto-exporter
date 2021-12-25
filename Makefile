@@ -5,13 +5,13 @@ all:
 	#
 
 build:
-	cargo build --release
+	env PATH=${PATH}:${HOME}/.cargo/bin cargo build --release
 
 strip: build
 	strip --strip-all target/release/$(BINARY)
 
 clean:
-	cargo clean
+	env PATH=${PATH}:${HOME}/.cargo/bin cargo clean
 
 install: strip
 	test -d $(DESTDIR)/etc/prometheus || mkdir -m 0755 -p $(DESTDIR)/etc/prometheus
