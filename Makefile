@@ -1,8 +1,7 @@
 .PHONY: all build strip install clean
 BINARY=prometheus-mosquitto-exporter
 
-all:
-	#
+all: build strip install
 
 build:
 	env PATH=${PATH}:${HOME}/.cargo/bin cargo build --release
