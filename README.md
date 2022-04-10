@@ -1,6 +1,10 @@
 # Preface
 The [Mosquitto MQTT broker](https://mosquitto.org) provides a number of statistics on the special `$SYS/#` topic (see [mosquitto(8)](https://mosquitto.org/man/mosquitto-8.html)).
 
+# Repositories
+* Primary development repository: https://git.ypbind.de/cgit/prometheus-mosquitto-exporter/
+* Backup repository: https://github.com/Bobobo-bo-Bo-bobo/prometheus-mosquitto-exporter
+
 # Build requirements
 As a Rust programm, a working stable Rust toolchain with Rust *version 1.50 or newer* is required.
 
