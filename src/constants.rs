@@ -7,7 +7,7 @@ pub const DEFAULT_MQTT_RETRY_INTERVAL: u64 = 300;
 pub const DEFAULT_MQTT_TIMEOUT: u64 = 15;
 
 pub const NAME: &str = "prometheus-mosquitto-exporter";
-pub const VERSION: &str = "1.1.1";
+pub const VERSION: &str = "1.1.2";
 
 pub const BYTES_RECEIVE_15MIN_DESC: &str = "The moving average of the number of bytes received by the broker over 15 minutes time interval";
 pub const BYTES_RECEIVE_15MIN_NAME: &str = "mosquitto_15min_avg_receive_bytes";
