@@ -1,5 +1,7 @@
-= prometheus-mosquitto-exporter
+= prometheus-mosquitto-exporter - Export Mosquitto MQTT broker statistics from $SYS/# topic to Prometheus
+:source-highlighter: pygments
 :stylesheet: asciidoc.css
+:toc: left
 
 == Preface
 
@@ -12,7 +14,7 @@ The https://mosquitto.org[Mosquitto MQTT broker] provides a number of statistics
 
 == Build requirements
 
-As a Rust programm, a working stable Rust toolchain with Rust _version 1.50 or newer_ is required.
+As a Rust program, a working stable Rust toolchain with Rust _version 1.50 or newer_ is required.
 
 Additionally, `cmake`, `pkg-config` and the `libssl` development package are required by the `paho-mqtt` crate.
 
